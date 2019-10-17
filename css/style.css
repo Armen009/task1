@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	padding:0;
+}
+@media only screen and (max-width: 600px) {
+  .accordion  {
+    display: none;
+  }
+}
+.navbar{
+	background: black;
+	margin-bottom: unset;
+}
+.navbar-left{
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+.navbar-left li:not(:first-child){
+	padding: 7px 40px 0 0
+
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#eee;
+}
+.btn{
+	background: #1abc9c;
+	outline: none;
+	border: none;
+	color:#eee;
+}
+#bottom_header{
+	background: #eee;
+	height: 80px;
+	border-bottom:1px solid grey;
+}
+
+.dd1{
+	width: 50px;
+	height: 100%;
+	float: left;
+}
+
+
+.vp{
+	width: 200px;
+	height: 100%;
+	border-right: 1px solid grey;
+	
+}
+
+.vp p{
+	font-size: 15px!important;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:black;
+	font-weight: bold;
+
+}
+#btn11{
+	width: 70px;
+    text-align: center !important;
+    padding-left: 12px !important;
+}
+span{
+	color:grey;
+	opacity:0.8;
+}
+span:hover{
+	color:#1abc9c; 
+}
+#bottom_header>div{
+	padding:10px 104px;
+}
+
+.reting{
+	border-bottom:1px solid grey;
+}
+.pokaz{
+	margin-left: 45%;
+}
+
+.dd2{
+	position: absolute;
+	top:41.5%;
+	right:18%;
+
+}
+h2{
+	margin:0 auto !important;
+}
+button{
+	width: 200px;
+	text-align:left !important;
+	margin-bottom:5px !important;
+	padding-left: 0 !important;
+}
+.btn-link, .btn-link.active, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+    background-color: #1abc9c !important;
+
+}
+#pragnoz::before{
+	content: url(../images/left.png);
+    position: relative;
+    left:90%;
+    top: 10px;
+}
+#vidposport::before{
+	content: url(../images/left.png);
+    position: relative;
+    left: 90%;
+    top: 10px;
+}
+#futbol::before{
+	content: url(../images/left.png);
+    position:relative;
+    left:90%;
+    top: 8px;
+}
+#xok::before{
+	content: url(../images/left.png);
+    position: relative;
+    left:90%;
+    top: 5px;
+}
+#tennis::before{
+	content: url(../images/left.png);
+    position: relative;
+    left:90%;
+    top: 4px;
+}
+footer{
+	background:black;
+}
+#btn22{
+	width: 150px;
+	height: 100%;
+
+
+}
+.kk{
+	top:40px;
+}

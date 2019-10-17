@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sport</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+			</div>
+			<div id="container_nav">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="#"><img src="images/btn_icon.png"></a></li>
+					<li><a href="#">Все прогнозы</a></li>
+					<li><a href="#">Экспрессы</a></li>
+					<li><a href="#">Футбол</a></li>
+					<li><a href="#">Хоккей</a></li>
+					<li><a href="#">Теннис</a></li>
+					<li><a href="#">Баскетбол</a></li>
+					<li><a href="#">Волейбол</a></li>
+					<li><a href="#">Киберспорт</a></li>
+				</ul>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><i class="material-icons" style="font-size:30px">search</i></a></li>
+				<li><a href="#"><i class="material-icons" style="font-size:30px">share</i></a></li>
+				<li><a href="#"><button id="btn11" type="submit" class="btn btn-default">Войти</button></a></li>
+			</ul>
+		</div>
+		
+		
+	</nav>
+	<section  id="bottom_header">
+		<div class="col-lg-1 a " style="padding-left:45px;">
+			<div class="dd1"><img src="images/icon1.png"></div>
+			<div class="vp">
+				<p>Рейтинг</p>
+				<span>Букмекеров</span>
+			</div>
+			
+		</div>
+		<div class="col-lg-1 a">
+			<div class="dd1"><img src="images/icon.png"></div>
+			<div class="vp">
+				<p>Бонусы</p>
+				<span>Букмекеров</span>
+			</div>
+		</div>
+		<div class="col-lg-1 a">
+			<div class="dd1"><img src="images/iconcor.png"></div>
+			<div class="vp">
+				<p>VIP</p>
+				<span>Прогнозы</span>
+			</div>
+			
+
+		</div>
+		<div class="col-lg-1 a">
+			<div class="dd1"><img src="images/icon3.png"></div>
+			<div class="vp">
+				<p>Статистика</p>
+				<span>Прогнозов</span>
+			</div>
+
+		</div>
+		<div class="col-lg-1 a">
+			<div class="dd1"><img src="images/icon4.png"></div>
+			<div class="vp">
+				<p>Гид</p>
+				<span>По Ставкам</span>
+			</div>
+
+		</div>
+		<div class="col-lg-1 a">
+			<div class="dd1"><img src="images/iconcon.png"></div>
+			<div class="vp">
+				<p>Конкурсы</p>
+				<span>Прогнозов</span>
+			</div>
+
+		</div>
+		<div class="col-lg-1 a">
+			<div class="dd1"><img src="images/icondol.png"></div>
+			<div class="vp" style="border:unset;">
+				<p>100.000 Рублей</p>
+				<span>челлендж</span>
+			</div>
+
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="col-lg-9 col-md-12 no-hpadding-xs">
+					<div class="hidden-xs hidden-sm">
+						<ul class="breadcrumb"><li><a><span>Главная ></span></a></li>
+							<li><a><span>Все прогнозы на спорт ></span></a></li>
+							<li>
+								<span> Центр ставок</span>
+							</li>
+						</ul>
+					</div>
+
+
+
+					<div class="reting">
+						<h1 style="font-weight: bolder;">Рейтинг экспертов</h1>
+					</div>
+					<table class="table">
+						<thead class="thead-light">
+							<tr>
+								<th scope="col"><p style="color:#1abc9c;border-bottom:2px solid #1abc9c;">Стабильные за месяц</p></th>
+								<th scope="col"><p>за месяц</p></th>
+								<th scope="col"><p>за все время</p></th>
+								<th scope="col"><p>выигрышные серии</p></th>
+								<th scope="col"><p>популярные</p></th>
+
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row"><span>No_  Имя &nbsp;<img src="images/arrow.png"></span></th>
+								<td><span>Прибыль &nbsp;<img src="images/arrow.png"></span></td>
+								<td><span>Всего</span></td>
+								<td><span>W/L/D</span></td>
+								<td><span>кф</span></td>
+								<td><span>Сумма</span></td>
+								<td><span>% &nbsp;<img src="images/arrow.png"></span></td>
+								<td><span>ROI</span></td>
+
+
+							</tr>
+							<tr>
+								<th scope="row"><span>1 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>2 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>3 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>4 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+
+							</tr>
+							<tr>
+								<th scope="row"><span>5 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>6 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+
+
+							</tr>
+							<tr>
+								<th scope="row"><span>7 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>8 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+							</tr>
+							<tr>
+								<th scope="row"><span>9 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>10 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>11 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+
+							</tr>
+							<tr>
+								<th scope="row"><span>12 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>13 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>14 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>15 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>16 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>17 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>18 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>19 &nbsp; Владимир Петров</span></th>
+								<td>+356.8%</td>
+								<td>89</td>
+								<td>48/39/2</td>
+								<td>3.17</td>
+								<td>262</td>
+								<td>55%</td>
+								<td>+34.1</td>
+
+							</tr>
+							<tr>
+								<th scope="row"><span>20 &nbsp; Михаил Филиппов</span></th>
+								<td>+311.3%</td>
+								<td>81</td>
+								<td>42/31/1</td>
+								<td>3.02</td>
+								<td>234</td>
+								<td>51%</td>
+								<td>+32.2%</td>
+
+							</tr>
+							<tr>
+								<th scope="row"></th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+
+
+							</tr>
+						</tbody>
+					</table>
+					<div class="pokaz">
+						<p style="color:#1abc9c;">Показать ещё &nbsp;></p>
+
+					</div>
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+		<!-- <div class="dd2"style="width: 300px;height:300px;border:1px solid black;">
+			
+		</div> -->
+
+
+		<div class="accordion dd2" id="accordionExample">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button id="pragnoz" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Прогнозы  
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Collapsible Group Item #2
+									</button>
+								</h2>
+							</div>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #3
+							</button>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #4
+							</button>
+						</h2>
+					</div>
+				</div>
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button id="vidposport"  class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne49" aria-expanded="true" aria-controls="collapseOne">
+							По видам спорта
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne49" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Collapsible Group Item #2
+									</button>
+								</h2>
+							</div>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #3
+							</button>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #4
+							</button>
+						</h2>
+					</div>
+				</div>
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button id="futbol" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne50" aria-expanded="true" aria-controls="collapseOne">
+							Футбол
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne50" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Collapsible Group Item #2
+									</button>
+								</h2>
+							</div>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #3
+							</button>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #4
+							</button>
+						</h2>
+					</div>
+				</div>
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button id="xok" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne51" aria-expanded="true" aria-controls="collapseOne">
+							Хоккей
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne51" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Collapsible Group Item #2
+									</button>
+								</h2>
+							</div>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #3
+							</button>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #4
+							</button>
+						</h2>
+					</div>
+				</div>
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button id="tennis" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne52" aria-expanded="true" aria-controls="collapseOne">
+							Теннис
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne52" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Collapsible Group Item #2
+									</button>
+								</h2>
+							</div>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #3
+							</button>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #4
+							</button>
+						</h2>
+					</div>
+				</div>
+
+			</div>
+			
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Баскетбол
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Волейбол
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Киберспорт
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Бокс/ММА/UFC
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Бейсбол
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Водное поло
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Биатлон
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+
+
+
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							 Рейтинг букмекеров
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Бонусы
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							100.000 рублей Челлендж
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne47" aria-expanded="true" aria-controls="collapseOne">
+							Гид по ставкам
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne47" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Конкурс
+									</button>
+								</h2>
+							</div>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Новости
+							</button>
+						</h2>
+					</div>
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								О нас
+							</button>
+						</h2>
+					</div>
+				</div>
+
+			</div>
+
+			
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Конкурс
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Новости
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							О нас
+						</button>
+					</h2>
+				</div>
+
+				
+
+			</div>
+			
+
+
+		</div>
+
+		<nav class="navbar navbar-inverse kk">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><img src="images/white-logo.png"></a>
+			</div>
+			<div id="container_nav">
+				<ul class="nav navbar-nav navbar-left">
+				<li><a href="#">© 2011-2019 «Всё про спорт.ру»<br>
+					Любое использование материалов приветствуется при гиперссылке.
+				</a></li>
+				<li><a href="#"><button id="btn22" type="submit" class="btn btn-default">
+					<img src="images/mail.png">
+                    Связаться с нами
+                </button></a></li>
+
+		
+                
+
+                
+					
+					
+				</ul>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" style="margin:11px 312px 0 0">Мы в социальных сетях: </a></li>
+				<li><a><i class="fa fa-vk" style="font-size:24px;color:#1abc9c;"></i></a></li>
+				<li><a><i class="fa fa-facebook-f" style="font-size:24px;color:#1abc9c;"></i></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" style="font-size:24px;color:#1abc9c;"></i></a></li>
+			</ul>
+		</div>
+		
+		
+	</nav>
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+	</html>
